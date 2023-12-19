@@ -1,0 +1,129 @@
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#menu {
+    background-color: rgb(255, 255, 255, 0.8);
+    font-weight: 700;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #BFD9CA;
+}
+
+header {
+    background-image: url(image/igor-son-FV_PxCqgtwc-unsplash.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    color: #3B5659;
+    padding-bottom: 10%;
+    padding-right: 50%;
+}
+
+.imgbox {
+    display:inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.imgbox .bfn {
+    color: #000000;
+	position: absolute; left: 0; bottom: 0;
+	background: rgba(255,255,255,0.5);
+    text-align: center;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	opacity: 0;
+}
+
+.imgbox:hover .bfn {
+    opacity: 1;
+}
+
+.bc {
+    background-color: #d7e7dd;
+}
+
+.card-img-top {
+    position: relative;
+}
+
+.card-img-bottom {
+    position: absolute;
+    display: none;
+}
+
+.card:hover .card-img-bottom {
+    display: block;
+}
+
+.card-text {
+    font-size: small;
+    line-height: 170%;
+}
+
+.carousel-item {
+    max-height: 550px;
+    overflow: hidden;
+}
+
+.btn {
+    font-weight: 500;
+    background-color: none;
+    color: #3B5659;
+    border: 2px solid #3B5659;
+}
+
+.btn:hover {
+    background-color: #BFD9CA;
+    color: #3B5659;
+}
+
+.btn1 {
+    font-weight: 500;
+    background-color: #BFBC8A;
+    color: #6b5848;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn1:hover {
+    background-color: #A68D77;
+    color: #BFBC8A;
+}
+
+.bi1 {
+    font-size: 30px;
+    color: #3B5659;
+}
+
+#shop {
+    width: 160px;
+    height: 160px;
+}
+
+#sn {
+    color: #3B5659;
+    padding: 10px;
+    font-weight: 700;
+}
+
+#ex {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+#ext {
+    text-align: left;
+    line-height: 200%;
+    margin: 5%;
+}
+
+.ft {
+    color: #BFD9CA;
+}
